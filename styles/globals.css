@@ -54,7 +54,7 @@ body {
 }
 
 .branding {
-  @apply flex justify-center items-end text-3xl gap-2 mx-auto;
+  @apply flex justify-center items-end text-xl md:text-3xl gap-2 mx-auto;
 }
 
 .nav-items {
