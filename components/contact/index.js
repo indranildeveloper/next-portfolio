@@ -45,7 +45,9 @@ const Contact = () => {
           Say Hello!
         </motion.a>
       </div>
-      <h4 className="text-2xl text-center">Connect with me on Social Media</h4>
+      <h4 className="text-2xl text-center opacity-70">
+        Connect with me on Social Media
+      </h4>
       <SocialLinks />
     </section>
   );
