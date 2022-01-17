@@ -15,8 +15,10 @@ const Skills = () => {
       </div>
       <motion.a
         whileHover={{ scale: 1.05 }}
-        href="#"
-        className="btn btn-primary mt-8 mx-auto w-64"
+        href="/resume.pdf"
+        target="_blank"
+        rel="noreferrer noopener"
+        className="btn btn-primary mt-8 mx-auto w-72"
       >
         Download Resume
       </motion.a>

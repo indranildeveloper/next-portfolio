@@ -12,7 +12,7 @@ const Contact = () => {
         icon={<FaEnvelopeOpenText className="text-blue-500" />}
       />
       <div className="text-center">
-        <p className="text-xl opacity-70 mt-5">
+        <p className="text-lg md:text-xl opacity-70 mt-5">
           I have a predilection for design and enjoy working on projects where
           approaching design and development as co-dependent processes can lead
           to smarter solutions and a better overall product experience for
@@ -20,7 +20,7 @@ const Contact = () => {
           chat, get in touch with me here
         </p>
         <h3 className="mt-6 text-2xl opacity-70">My Contact Info</h3>
-        <div className="flex flex-col justify-center items-center gap-2 text-2xl mt-6 text-blue-500">
+        <div className="flex flex-col justify-center items-center gap-2 text-xl md:text-2xl mt-6 text-blue-500">
           <motion.a
             whileHover={{ x: "10px", color: "#ffffff" }}
             href="tel:+916294716288"

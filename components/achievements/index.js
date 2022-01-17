@@ -15,7 +15,7 @@ const Achievements = () => {
           <motion.div
             whileHover={{ scale: 1.05 }}
             key={item.id}
-            className="text-2xl border border-blue-700 bg-blue-600 p-4 rounded-md"
+            className="text-xl border border-blue-700 bg-blue-600 p-4 rounded-md"
           >
             {item.title}
           </motion.div>
