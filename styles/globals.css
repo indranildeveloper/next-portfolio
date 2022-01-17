@@ -1,16 +1,65 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
-  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-800 text-white;
+}
+
+::-webkit-scrollbar {
+  @apply w-5;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-500 rounded-full;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-600;
+}
+
+.section {
+  @apply mt-16 mx-auto;
+}
+
+.btn {
+  @apply flex items-center justify-center gap-3 rounded-md text-xl px-10 py-5;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-tr from-blue-500 to-indigo-700 hover:bg-gradient-to-bl;
+}
+
+.btn-secondary {
+  @apply text-xl bg-blue-600 flex items-center gap-2 px-6 py-3 rounded-md;
+}
+
+.navbar {
+  @apply py-7 shadow-xl bg-gray-900;
+}
+
+.navbar-container {
+  @apply container mx-auto flex flex-col md:flex-row justify-between px-7 md:items-center;
+}
+
+.branding {
+  @apply flex justify-center items-end text-3xl gap-2 mx-auto;
+}
+
+.nav-items {
+  @apply mt-3 gap-3 flex-col md:flex md:flex-row md:mt-0 md:gap-6 transition-all duration-300;
+}
+
+.nav-item {
+  @apply flex justify-center items-center text-xl gap-1 hover:text-blue-500 transition-all duration-300;
 }
