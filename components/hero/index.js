@@ -11,7 +11,7 @@ const Hero = () => {
       <h3
         initial={{ y: "20px" }}
         animate={{ y: 0 }}
-        className="text-xl text-blue-500 pl-2"
+        className="text-xl text-blue-500 pl-2 mb-8"
       >
         Hello There! My name is,
       </h3>
@@ -31,10 +31,10 @@ const Hero = () => {
         ]}
         typeSpeed={40}
         loop
-        className="text-xl md:text-2xl lg:text-4xl font-bold pl-1 opacity-70 mb-4"
+        className="text-xl md:text-2xl lg:text-4xl font-bold pl-1 mt-6 mb-2"
       />
 
-      <p className="text-xl opacity-70 mt-5">
+      <p className="text-xl mt-10">
         I am a full stack(MERN) software engineer specializing in building (and
         occasionally designing) exceptional web experiences. Currently, I am
         focused on learning new technologies and building awesome web
@@ -44,7 +44,7 @@ const Hero = () => {
         href="/resume.pdf"
         target="_blank"
         rel="noreferrer noopener"
-        className="btn btn-primary mt-8 mb-8"
+        className="btn btn-primary mt-16 mb-8"
         whileHover={{ scale: 1.1 }}
       >
         Download Resume

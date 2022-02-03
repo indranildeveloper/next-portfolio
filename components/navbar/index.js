@@ -8,8 +8,6 @@ import {
   FaLaptopCode,
   FaUserGraduate,
   FaEnvelopeOpenText,
-  FaAngleRight,
-  FaAngleLeft,
 } from "react-icons/fa";
 
 import NavLink from "./NavLink";
@@ -62,17 +60,15 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <a className="branding">
-              <FaAngleLeft className="text-blue-500" />{" "}
+            <a className="flex text-2xl md:text-3xl font-semibold">
               <motion.span whileHover={{ scale: 1.1 }}>
                 Indranil Halder
-              </motion.span>{" "}
-              <FaAngleRight className="text-blue-500" />
+              </motion.span>
             </a>
           </Link>
 
           <button className="text-2xl md:hidden" onClick={handleShowMenu}>
-            {!showMenu ? <FaBars /> : <FaTimes className="text-rose-500" />}
+            {!showMenu ? <FaBars /> : <FaTimes className="text-rose-600" />}
           </button>
         </div>
 
