@@ -11,8 +11,8 @@ const Contact = () => {
         title="Get In Touch"
         icon={<FaEnvelopeOpenText className="text-blue-500" />}
       />
-      <div className="flex gap-y-8 flex-col md:flex-row justify-between items-start my-8">
-        <p className="text-lg text-center md:text-left md:text-xl md:w-1/2">
+      <div className="flex gap-8 flex-col md:flex-row justify-between items-start my-8">
+        <p className="text-lg text-center md:text-left md:text-xl">
           I have a predilection for design and enjoy working on projects where
           approaching design and development as co-dependent processes can lead
           to smarter solutions and a better overall product experience for
