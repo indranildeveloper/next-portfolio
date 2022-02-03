@@ -11,7 +11,7 @@ const Contact = () => {
         title="Get In Touch"
         icon={<FaEnvelopeOpenText className="text-blue-500" />}
       />
-      <div className="flex gap-8 flex-col md:flex-row justify-between items-start my-8">
+      <div className="flex gap-y-8 gap-x-16 flex-col md:flex-row justify-between items-start my-8">
         <p className="text-lg text-center md:text-left md:text-xl">
           I have a predilection for design and enjoy working on projects where
           approaching design and development as co-dependent processes can lead
@@ -21,7 +21,7 @@ const Contact = () => {
         </p>
         <div className="w-full md:w-auto">
           <h3 className="text-2xl text-center md:text-left">My Contact Info</h3>
-          <div className="flex flex-col justify-center items-center md:items-start gap-2 text-lg mt-4 text-blue-500">
+          <div className="flex flex-col justify-center items-center md:items-start gap-2 text-xl mt-4 text-blue-500">
             <motion.a
               whileHover={{ x: "10px", color: "#ffffff" }}
               href="tel:+916294716288"
